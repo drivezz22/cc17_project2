@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <ul class="navbar">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./news.html">News</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="./about.html">About</a></li>
+    </ul>
+
+    <hr />
+
+    <h1>Contact</h1>
+
+    <hr />
+
+    <h3>Please fill-in form</h3>
+    <fieldset>
+      <legend>User Info</legend>
+      <form action="./index.html" method="GET">
+        <label
+          >First name :
+          <input type="text" name="fname" />
+        </label>
+        <br /><br />
+
+        <label
+          >Last name :
+          <input type="text" name="lname" />
+        </label>
+        <br /><br />
+
+        <fieldset>
+          <legend>Course</legend>
+          <label>
+            <input type="radio" name="course" value="html" /> HTML
+          </label>
+          <label> <input type="radio" name="course" value="css" /> CSS </label>
+          <label>
+            <input type="radio" name="course" value="js" /> Javascript
+          </label>
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Framework</legend>
+          <label>
+            <input type="radio" name="framework" value="react" /> React
+          </label>
+          <label>
+            <input type="radio" name="framework" value="vue" /> Vue
+          </label>
+          <label>
+            <input type="radio" name="framework" value="angular" /> Angular
+          </label>
+        </fieldset>
+
+        <br />
+
+        <button>OK</button>
+        <button type="button">OK2</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
